@@ -1,0 +1,15 @@
+main {
+  position: relative;
+
+  .btnReset {
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .btnGroup {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+  }
+}

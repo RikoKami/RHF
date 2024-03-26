@@ -1,0 +1,16 @@
+.form {
+  > div {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    row-gap: 10px;
+    margin: 10px 0;
+
+    span {
+      display: block;
+      margin-bottom: 10px;
+      color: red;
+      font-size: 12px;
+    }
+  }
+}
